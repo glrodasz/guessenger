@@ -1,0 +1,24 @@
+.whatsapp-ios-light {
+  background: #e5dcd5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.whatsapp-ios-light .message {
+  border-radius: 8px;
+  padding: 5px 8px;
+  width: fit-content;
+}
+
+.whatsapp-ios-light .message.owner-me {
+  background: #dcf7c5;
+  align-self: flex-end;
+}
+
+.whatsapp-ios-light .message.owner-theirs {
+  background: white;
+  align-self: flex-start;
+}

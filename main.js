@@ -1,5 +1,7 @@
 import "./style.css";
 
+import { renderMessenger } from "./ui/whatsapp/ios.js";
+
 document.querySelector("#app").innerHTML = `
   <main>
       <header>
@@ -16,7 +18,6 @@ document.querySelector("#app").innerHTML = `
         </div>
       </footer>
   </main>
-
 `;
 
-setupCounter(document.querySelector("#counter"));
+renderMessenger(document.querySelector("#current-messenger-ui"));

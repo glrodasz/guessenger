@@ -29,8 +29,8 @@ main {
 
 .messenger {
   border: 1px solid tomato;
-  aspect-ratio: 8/12;
-  max-height: 60vh;
+  aspect-ratio: 8/16;
+  max-height: 55vh;
   margin: 0 auto;
 }
 
