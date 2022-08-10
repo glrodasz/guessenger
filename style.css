@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 40px 60px 200px;
+  width: 100%;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.messenger {
+  border: 1px solid tomato;
+  aspect-ratio: 8/12;
+  max-height: 60vh;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.score {
+  font-size: 2.5rem;
+}
+
+.option-buttons {
+  background: white;
+  box-shadow: 0 -4px 2px -1px rgba(0, 0, 0, 0.1),
+    0 -10px 5px -1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 2rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 20px 1rem;
+  width: 100%;
+  cursor: pointer;
+}
